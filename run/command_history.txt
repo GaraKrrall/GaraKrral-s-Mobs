@@ -1,0 +1,2 @@
+/g
+/give Dev garakrrals_warfare:test_item
