@@ -23,6 +23,7 @@ public class ModItemGroups {
                     .title(Component.literal("GaraKrral's Mobs"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TEST_ITEM);
+                        output.accept(ModItems.GECKO_SPAWN_EGG);
                     })
                     .build());
 

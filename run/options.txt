@@ -22,8 +22,8 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:12
-simulationDistance:12
+renderDistance:32
+simulationDistance:32
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false

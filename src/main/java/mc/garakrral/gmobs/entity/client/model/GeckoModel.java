@@ -11,7 +11,6 @@ import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
-import net.minecraft.world.entity.Entity;
 
 import mc.garakrral.gmobs.Main;
 import mc.garakrral.gmobs.entity.client.animation.GeckoAnimations;
@@ -74,8 +73,14 @@ public class GeckoModel<T extends GeckoEntity> extends HierarchicalModel<T> {
 
         this.applyHeadRotation(netHeadYaw, headPitch);
 
-        this.animateWalk(GeckoAnimations.ANIM_GECKO_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
+        if (!entity.isInWaterOrBubble() && !entity.sleepAnimationState.isStarted() && entity.getDeltaMovement().horizontalDistanceSqr() > 1.0E-6) {
+            this.animateWalk(GeckoAnimations.ANIM_GECKO_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
+        }
+
         this.animate(entity.idleAnimationState, GeckoAnimations.ANIM_GECKO_IDLE, ageInTicks, 1f);
+
+        this.animate(entity.swimAnimationState, GeckoAnimations.ANIM_GECKO_SWIM, ageInTicks, 1f);
+        this.animate(entity.sleepAnimationState, GeckoAnimations.ANIM_GECKO_SLEEP, ageInTicks, 1f);
 
     }
 
@@ -83,8 +88,8 @@ public class GeckoModel<T extends GeckoEntity> extends HierarchicalModel<T> {
         headYaw = Mth.clamp(headYaw, -30f, 30f);
         headPitch = Mth.clamp(headPitch, -25f, 45);
 
-        this.head.yRot = headYaw * ((float)Math.PI / 180f);
-        this.head.xRot = headPitch * ((float)Math.PI / 180f);
+        this.head.yRot = headYaw * ((float) Math.PI / 180f);
+        this.head.xRot = headPitch * ((float) Math.PI / 180f);
     }
 
     @Override

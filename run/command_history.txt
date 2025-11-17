@@ -1,2 +1,45 @@
 /g
 /give Dev garakrrals_warfare:test_item
+/data get entity 01dcfa04-8aca-4268-954f-79b19a9953af
+/kill @e[type=garakrrals_mobs:gecko]
+/time set day
+/locate biome minecraft:swampü
+/locate biome minecraft:swamp
+/tp @s 2121 90 1250
+/kill @e[type=garakrrals_mobs:gecko]
+/tp @e[type=garakrrals_mobs:gecko] Dev
+/kill @e[type=garakrrals_mobs:gecko]
+/tp @e[type=garakrrals_mobs:gecko] Dev
+/kill @e[type=garakrrals_mobs:gecko]
+/g
+/give Dev minecraft:bubble_coral
+/give Dev minecraft:bubble_column
+/setblock 875 66 352 bubble_column
+/time set day
+/kill @e[type=garakrrals_mobs:gecko]
+/time set night
+/time set midnight
+/time set night
+/time set midnight
+/time set day
+/tick rate 10
+/tick rate 20
+/time set night
+/time set midnight
+/time set day
+/time set night
+/data get
+/data get entity 7bbc53c7-7084-4082-b9ae-9974078dedfb
+/data get entity 9c5105a7-b1fd-4c8f-ad80-eb308f77cd07
+/time set day
+/time set night
+/time set day
+/time set night
+/neoforge generate start ~ ~ ~
+/neoforge generate start ~ ~ ~ 1 true
+/neoforge entity list
+/time set day
+/time set night
+/data get entity 58578aa6-7f4b-4f66-9589-6f94f835c8e4
+/time set day
+/data get entity 58578aa6-7f4b-4f66-9589-6f94f835c8e4

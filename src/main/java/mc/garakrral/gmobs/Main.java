@@ -1,7 +1,11 @@
 package mc.garakrral.gmobs;
 
+import net.minecraft.client.renderer.entity.EntityRenderers;
+
 import mc.garakrral.gmobs.block.ModBlocks;
 import mc.garakrral.gmobs.entity.ModEntities;
+import mc.garakrral.gmobs.entity.client.renderer.GeckoRenderer;
+import mc.garakrral.gmobs.entity.custom.GeckoEntity;
 import mc.garakrral.gmobs.item.ModItems;
 import mc.garakrral.gmobs.item.group.ModItemGroups;
 
@@ -71,11 +75,12 @@ public class Main {
         LOGGER.info("HELLO from server starting");
     }
 
+    @SuppressWarnings("removal")
     @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
         }
     }
 }
