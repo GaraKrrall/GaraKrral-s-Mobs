@@ -28,7 +28,6 @@ public class GeckoModel<T extends GeckoEntity> extends HierarchicalModel<T> {
     public GeckoModel(ModelPart root) {
         this.body = root.getChild("Body");
         this.head = this.body.getChild("Head");
-
     }
 
     public static LayerDefinition createBodyLayer() {

@@ -15,6 +15,7 @@ import mc.garakrral.gmobs.entity.variant.GeckoVariant;
 
 import com.google.common.collect.Maps;
 import com.mojang.blaze3d.vertex.PoseStack;
+import org.jetbrains.annotations.NotNull;
 
 public class GeckoRenderer extends MobRenderer<GeckoEntity, GeckoModel<GeckoEntity>> {
     private static final Map<GeckoVariant, ResourceLocation> GECKO_VARIANT_RESOURCE_LOCATION_MAP =
@@ -35,6 +36,7 @@ public class GeckoRenderer extends MobRenderer<GeckoEntity, GeckoModel<GeckoEnti
         super(context, new GeckoModel<>(context.bakeLayer(GeckoModel.LAYER_LOCATION)), 0.25f);
     }
 
+    @NotNull
     @Override
     public ResourceLocation getTextureLocation(GeckoEntity entity) {
         return GECKO_VARIANT_RESOURCE_LOCATION_MAP.get(entity.getVariant());

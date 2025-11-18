@@ -43,3 +43,7 @@
 /data get entity 58578aa6-7f4b-4f66-9589-6f94f835c8e4
 /time set day
 /data get entity 58578aa6-7f4b-4f66-9589-6f94f835c8e4
+/tick freeze
+/time set night
+/tick unfreeze
+/time set day

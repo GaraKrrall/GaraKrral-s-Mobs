@@ -23,4 +23,8 @@ public class ModItems {
     public static final DeferredItem<Item> GECKO_SPAWN_EGG = ITEMS.register("gecko_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.GECKO, 0x31afaf, 0xffac00 ,
                     new Item.Properties()));
+
+    public static final DeferredItem<Item> FLY_SPAWN_EGG = ITEMS.register("fly_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.FLY, 0x34adfa, 0xffaa00,
+                    new Item.Properties()));
 }

@@ -24,6 +24,7 @@ public class ModItemGroups {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TEST_ITEM);
                         output.accept(ModItems.GECKO_SPAWN_EGG);
+                        output.accept(ModItems.FLY_SPAWN_EGG);
                     })
                     .build());
 

@@ -20,6 +20,8 @@ import net.neoforged.neoforge.registries.NeoForgeRegistries;
 public class ModBiomeModifiers {
 
     public static final ResourceKey<BiomeModifier> GECKO_SPAWN = registerKey("gecko");
+    public static final ResourceKey<BiomeModifier> FLY_SPAWN = registerKey("fly_spawn");
+
 
     public static void bootstrap(BootstrapContext<BiomeModifier> c) {
         var placedFeatures = c.lookup(Registries.PLACED_FEATURE);
@@ -29,6 +31,24 @@ public class ModBiomeModifiers {
            HolderSet.direct(biomes.getOrThrow(Biomes.SWAMP), biomes.getOrThrow(Biomes.PLAINS)),
                 List.of(new MobSpawnSettings.SpawnerData(ModEntities.GECKO.get(), 20, 2, 4))
         ));
+        c.register(FLY_SPAWN, new BiomeModifiers.AddSpawnsBiomeModifier(
+                HolderSet.direct(
+                        biomes.getOrThrow(Biomes.FOREST),
+                        biomes.getOrThrow(Biomes.PLAINS),
+                        biomes.getOrThrow(Biomes.SWAMP),
+                        biomes.getOrThrow(Biomes.DARK_FOREST),
+                        biomes.getOrThrow(Biomes.SAVANNA),
+                        biomes.getOrThrow(Biomes.BIRCH_FOREST),
+                        biomes.getOrThrow(Biomes.JUNGLE),
+                        biomes.getOrThrow(Biomes.DESERT)
+                ),
+                List.of(
+                        new MobSpawnSettings.SpawnerData(
+                                ModEntities.FLY.get(), 10, 2, 8
+                        )
+                )
+        ));
+    
     }
 
     private static ResourceKey<BiomeModifier> registerKey(String name) {
