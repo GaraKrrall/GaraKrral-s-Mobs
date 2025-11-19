@@ -13,7 +13,7 @@
   "spawners": {
     "type": "garakrrals_mobs:fly",
     "maxCount": 8,
-    "minCount": 2,
-    "weight": 10
+    "minCount": 6,
+    "weight": 40
   }
 }
