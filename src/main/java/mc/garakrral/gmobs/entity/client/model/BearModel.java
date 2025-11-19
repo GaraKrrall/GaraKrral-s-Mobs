@@ -87,6 +87,7 @@ public class BearModel<T extends BearEntity> extends HierarchicalModel<T> {
 
     @Override
     public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay, int color) {
+        poseStack.scale(0.3f, 0.3f, 0.3f); // model inanılmaz büyük. bunun yüzünden küçültük
         this.root.render(poseStack, buffer, packedLight,packedOverlay, color);
     }
 
