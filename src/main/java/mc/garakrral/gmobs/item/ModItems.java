@@ -27,4 +27,8 @@ public class ModItems {
     public static final DeferredItem<Item> FLY_SPAWN_EGG = ITEMS.register("fly_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.FLY, 0x34adfa, 0xffaa00,
                     new Item.Properties()));
+
+    public static final DeferredItem<Item> BEAR_SPAWN_EGG = ITEMS.register("bear_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.BEAR, 0X45FDFa, 0x55adfa,
+                    new Item.Properties()));
 }

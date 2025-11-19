@@ -7,6 +7,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 
 import mc.garakrral.gmobs.Main;
+import mc.garakrral.gmobs.entity.custom.BearEntity;
 import mc.garakrral.gmobs.entity.custom.FlyEntity;
 import mc.garakrral.gmobs.entity.custom.GeckoEntity;
 
@@ -23,4 +24,8 @@ public class ModEntities {
     public static final Supplier<EntityType<FlyEntity>> FLY =
             ENTITY_TYPES.register("fly", () -> EntityType.Builder.of(FlyEntity::new, MobCategory.CREATURE)
                     .sized(0.30f, 0.30f).build("fly"));
+
+    public static final Supplier<EntityType<BearEntity>> BEAR =
+            ENTITY_TYPES.register("bear" , () -> EntityType.Builder.of(BearEntity::new, MobCategory.CREATURE)
+                    .sized(2f, 1.5f).build("bear"));
 }

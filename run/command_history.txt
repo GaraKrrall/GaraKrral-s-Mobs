@@ -1,22 +1,3 @@
-/data get entity 7bbc53c7-7084-4082-b9ae-9974078dedfb
-/data get entity 9c5105a7-b1fd-4c8f-ad80-eb308f77cd07
-/time set day
-/time set night
-/time set day
-/time set night
-/neoforge generate start ~ ~ ~
-/neoforge generate start ~ ~ ~ 1 true
-/neoforge entity list
-/time set day
-/time set night
-/data get entity 58578aa6-7f4b-4f66-9589-6f94f835c8e4
-/time set day
-/data get entity 58578aa6-7f4b-4f66-9589-6f94f835c8e4
-/tick freeze
-/time set night
-/tick unfreeze
-/time set day
-/kill @e[type=garakrrals_mobs:fly]
 /tp @e[type=garakrrals_mobs:gecko]
 /tp @e[type=garakrrals_mobs:gecko] Dev
 /tp @e[type=garakrrals_mobs:gecko]
@@ -48,3 +29,22 @@
 /locate structure minecraft:village_plains
 /tp @s 1200 ~ -816
 /tp @e[type=garakrrals_mobs:fly] Dev
+/difficulty peaceful
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick rate 5
+/tick rate 8
+/gamerule doMobSpawning false
+/difficulty easy
+/tick rate 20
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/data get entity 809342b4-e119-4929-b7d4-ca5a7984eb34

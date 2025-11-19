@@ -4,6 +4,7 @@ import net.minecraft.client.renderer.entity.EntityRenderers;
 
 import mc.garakrral.gmobs.block.ModBlocks;
 import mc.garakrral.gmobs.entity.ModEntities;
+import mc.garakrral.gmobs.entity.client.renderer.BearRenderer;
 import mc.garakrral.gmobs.entity.client.renderer.FlyRenderer;
 import mc.garakrral.gmobs.entity.client.renderer.GeckoRenderer;
 import mc.garakrral.gmobs.item.ModItems;
@@ -82,6 +83,7 @@ public class Main {
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
             EntityRenderers.register(ModEntities.FLY.get(), FlyRenderer::new);
+            EntityRenderers.register(ModEntities.BEAR.get(), BearRenderer::new);
         }
     }
 }

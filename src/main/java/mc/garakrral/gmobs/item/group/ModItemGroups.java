@@ -25,6 +25,7 @@ public class ModItemGroups {
                         output.accept(ModItems.TEST_ITEM);
                         output.accept(ModItems.GECKO_SPAWN_EGG);
                         output.accept(ModItems.FLY_SPAWN_EGG);
+                        output.accept(ModItems.BEAR_SPAWN_EGG);
                     })
                     .build());
 
