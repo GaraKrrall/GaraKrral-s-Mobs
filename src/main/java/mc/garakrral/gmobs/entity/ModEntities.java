@@ -27,5 +27,5 @@ public class ModEntities {
 
     public static final Supplier<EntityType<BearEntity>> BEAR =
             ENTITY_TYPES.register("bear" , () -> EntityType.Builder.of(BearEntity::new, MobCategory.CREATURE)
-                    .sized(2f, 1.5f).build("bear"));
+                    .sized(2.0f, 1.0f).build("bear"));
 }

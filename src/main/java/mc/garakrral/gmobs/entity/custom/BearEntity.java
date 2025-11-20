@@ -15,7 +15,11 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
@@ -38,6 +42,9 @@ public class BearEntity extends Animal {
 
     @Override
     protected void registerGoals() {
+        this.goalSelector.addGoal(1, new WaterAvoidingRandomStrollGoal(this, 1.0));
+        this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 6.0F));
+        this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 
     }
 
@@ -54,11 +61,10 @@ public class BearEntity extends Animal {
     public void tick() {
         super.tick();
 
-        if (this.walkAnimationState.isStarted()) {
-        } else if (this.getDeltaMovement().horizontalDistanceSqr() > 0.0001) {
-            this.walkAnimationState.start(this.tickCount);
-        } else {
-            this.walkAnimationState.stop();
+        if (this.getDeltaMovement().horizontalDistanceSqr() > 0.0001) {
+            if (!this.walkAnimationState.isStarted()) {
+                this.walkAnimationState.start(this.tickCount);
+            }
         }
     }
 

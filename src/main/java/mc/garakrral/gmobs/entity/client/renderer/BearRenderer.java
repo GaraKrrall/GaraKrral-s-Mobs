@@ -23,7 +23,7 @@ public class BearRenderer extends MobRenderer<BearEntity, BearModel<BearEntity>>
                 map.put(BearVariant.NORMAL,
                         ResourceLocation.fromNamespaceAndPath(Main.MODID, "textures/entity/bear/bear.png"));
                 map.put(BearVariant.HONEY,
-                        ResourceLocation.fromNamespaceAndPath(Main.MODID, "textures/entity/gecko/bear_honey.png"));
+                        ResourceLocation.fromNamespaceAndPath(Main.MODID, "textures/entity/bear/bear_honey.png"));
 
             });
 
@@ -39,12 +39,8 @@ public class BearRenderer extends MobRenderer<BearEntity, BearModel<BearEntity>>
 
 
     @Override
-    public void render(BearEntity bear, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {
-        if (bear.isBaby()) {
-            poseStack.scale(1f, 1.5f, 1f);
-        } else {
-            poseStack.scale(3f, 2f, 3f);
-        }
-        super.render(bear, entityYaw, partialTicks, poseStack, buffer, packedLight);
+    public void render(BearEntity bear, float y, float pt, PoseStack pose, MultiBufferSource buf, int light) {
+
+        super.render(bear, y, pt, pose, buf, light);
     }
 }

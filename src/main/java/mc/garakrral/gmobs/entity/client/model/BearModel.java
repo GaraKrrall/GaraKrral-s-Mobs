@@ -52,17 +52,13 @@ public class BearModel<T extends BearEntity> extends HierarchicalModel<T> {
 
         PartDefinition legs = root.addOrReplaceChild("legs", CubeListBuilder.create(), PartPose.offset(0.0F, 0.0F, 0.0F));
 
-        PartDefinition
-        one = legs.addOrReplaceChild("1", CubeListBuilder.create().texOffs(-6, -4).addBox(0.0F, 0.0F, 0.0F, 5.0F, 8.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(-8.0F, -8.0F, -6.0F));
+        PartDefinition one = legs.addOrReplaceChild("1", CubeListBuilder.create().texOffs(-6, -4).addBox(0.0F, -4.0F, -5.0F, 5.0F, 12.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(-8.0F, -8.0F, -1.0F));
 
-        PartDefinition
-        two = legs.addOrReplaceChild("2", CubeListBuilder.create().texOffs(-8, -5).addBox(-5.0F, 0.0F, 0.0F, 5.0F, 8.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(8.0F, -8.0F, 8.0F));
+        PartDefinition two = legs.addOrReplaceChild("2", CubeListBuilder.create().texOffs(-8, -5).addBox(-5.0F, -4.0F, 0.0F, 5.0F, 12.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(8.0F, -8.0F, 8.0F));
 
-        PartDefinition
-        three = legs.addOrReplaceChild("3", CubeListBuilder.create().texOffs(-7, -5).addBox(0.0F, 0.0F, -7.0F, 5.0F, 8.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(-8.0F, -8.0F, 15.0F));
+        PartDefinition three = legs.addOrReplaceChild("3", CubeListBuilder.create().texOffs(-7, -5).addBox(0.0F, -4.0F, -7.0F, 5.0F, 12.0F, 7.0F, new CubeDeformation(0.0F)), PartPose.offset(-8.0F, -8.0F, 15.0F));
 
-        PartDefinition
-        four = legs.addOrReplaceChild("4", CubeListBuilder.create().texOffs(-7, -4).addBox(-5.0F, 0.0F, -5.0F, 5.0F, 8.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(8.0F, -8.0F, -1.0F));
+        PartDefinition four = legs.addOrReplaceChild("4", CubeListBuilder.create().texOffs(-7, -4).addBox(-5.0F, -4.0F, -5.0F, 5.0F, 12.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(8.0F, -8.0F, -1.0F));
 
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(-16, -14).addBox(-10.0F, 0.0F, -16.0F, 20.0F, 12.0F, 16.0F, new CubeDeformation(0.0F))
                 .texOffs(-10, -9).addBox(-9.0F, 1.0F, -27.0F, 18.0F, 11.0F, 11.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -20.0F, 19.0F));
@@ -79,15 +75,16 @@ public class BearModel<T extends BearEntity> extends HierarchicalModel<T> {
         return LayerDefinition.create(meshdefinition, 16, 16);
     }
 
+
+
     @Override
     public void setupAnim(BearEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-      this.animate(entity.walkAnimationState, BearAnimations.WALK, ageInTicks, 1f);
-      this.animate(entity.attackAnimationState, BearAnimations.ATTACK, ageInTicks, 1f);
+      this.animate(entity.walkAnimationState, BearAnimations.WALK, ageInTicks, 0.5f);
+      this.animate(entity.attackAnimationState, BearAnimations.ATTACK, ageInTicks, 0.5f);
     }
 
     @Override
     public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay, int color) {
-        poseStack.scale(0.3f, 0.3f, 0.3f); // model inanılmaz büyük. bunun yüzünden küçültük
         this.root.render(poseStack, buffer, packedLight,packedOverlay, color);
     }
 

@@ -1,10 +1,5 @@
 /tp @e[type=garakrrals_mobs:gecko]
 /tp @e[type=garakrrals_mobs:gecko] Dev
-/tp @e[type=garakrrals_mobs:gecko]
-/kill @e[type=garakrrals_mobs:fly]
-/kill @e[type=garakrrals_mobs:gecko]
-/tp @e[type=garakrrals_mobs:gecko]
-/tp @e[type=garakrrals_mobs:gecko] Dev
 /kill @e[type=garakrrals_mobs:fly]
 /tp @e[type=garakrrals_mobs:fly] Dev
 /tp @e[type=garakrrals_mobs:gecko] Dev
@@ -48,3 +43,8 @@
 /tick freeze
 /tick unfreeze
 /data get entity 809342b4-e119-4929-b7d4-ca5a7984eb34
+/tp @e[type=garakrrals_mobs:fly]
+/tp @e[type=garakrrals_mobs:fly] Dev
+/tp @e[type=garakrrals_mobs:fly]
+/tp @e[type=garakrrals_mobs:fly] Dev
+/kill @e[type=garakrrals_mobs:bear]
