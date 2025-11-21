@@ -1,0 +1,240 @@
+[21Kas2025 21:43:48.509] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\akgls\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, gmobs.mixins.json]
+[21Kas2025 21:43:48.515] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[21Kas2025 21:43:48.657] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[21Kas2025 21:43:48.747] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[21Kas2025 21:43:49.059] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[21Kas2025 21:43:49.164] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/akgls/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[21Kas2025 21:43:49.632] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\akgls\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[21Kas2025 21:43:49.638] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\akgls\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[21Kas2025 21:43:49.633] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.57, NVIDIA Corporation
+[21Kas2025 21:43:49.643] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\akgls\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[21Kas2025 21:43:49.648] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\akgls\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[21Kas2025 21:43:49.736] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[21Kas2025 21:43:50.955] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\akgls\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[21Kas2025 21:43:51.013] [main/WARN] [mixin/]: Reference map 'gmobs.refmap.json' for gmobs.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Kas2025 21:43:56.608] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 352 milliseconds
+[21Kas2025 21:43:58.581] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/akgls/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_official_1.20.1/forge-1.20.1-47.4.10_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[21Kas2025 21:43:58.581] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/akgls/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_official_1.20.1/forge-1.20.1-47.4.10_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[21Kas2025 21:43:58.600] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Kas2025 21:43:58.605] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[21Kas2025 21:43:58.702] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[21Kas2025 21:43:59.166] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[21Kas2025 21:43:59.167] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[21Kas2025 21:44:00.402] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [gmobs]
+[21Kas2025 21:44:00.543] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[21Kas2025 21:44:00.807] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[21Kas2025 21:44:01.861] [Worker-Main-2/INFO] [mc.garakrral.gmobsreforged.Main/]: HELLO FROM COMMON SETUP
+[21Kas2025 21:44:01.931] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Kas2025 21:44:02.549] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'garakrrals_mobs:main_tab_icon_item#inventory' referenced from: garakrrals_mobs:main_tab_icon_item#inventory: java.io.FileNotFoundException: garakrrals_mobs:models/item/main_tab_icon_item.json
+[21Kas2025 21:44:02.549] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'garakrrals_mobs:test#inventory' referenced from: garakrrals_mobs:test#inventory: java.io.FileNotFoundException: garakrrals_mobs:models/item/test.json
+[21Kas2025 21:44:02.549] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'garakrrals_mobs:bear_spawn_egg#inventory' referenced from: garakrrals_mobs:bear_spawn_egg#inventory: java.io.FileNotFoundException: garakrrals_mobs:models/item/bear_spawn_egg.json
+[21Kas2025 21:44:02.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[21Kas2025 21:44:04.487] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[21Kas2025 21:44:04.487] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21Kas2025 21:44:04.566] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on SES (VB-Audio Virtual Cable)
+[21Kas2025 21:44:04.567] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[21Kas2025 21:44:04.700] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[21Kas2025 21:44:04.710] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[21Kas2025 21:44:04.716] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21Kas2025 21:44:04.716] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21Kas2025 21:44:04.716] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21Kas2025 21:44:04.719] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21Kas2025 21:44:04.722] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21Kas2025 21:44:04.723] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21Kas2025 21:44:04.723] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21Kas2025 21:44:04.899] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21Kas2025 21:44:04.966] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[21Kas2025 21:44:04.967] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21Kas2025 21:44:04.969] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21Kas2025 21:44:05.348] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[21Kas2025 21:44:17.435] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[21Kas2025 21:44:19.653] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[21Kas2025 21:44:19.760] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[21Kas2025 21:44:20.194] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[21Kas2025 21:44:20.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Kas2025 21:44:20.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Kas2025 21:44:23.245] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:23.263] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:23.263] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:23.263] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:23.263] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:23.263] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:23.536] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %7
+[21Kas2025 21:44:24.033] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Kas2025 21:44:24.034] [Server thread/INFO] [mc.garakrral.gmobsreforged.Main/]: HELLO from server starting
+[21Kas2025 21:44:24.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3499 ms
+[21Kas2025 21:44:24.237] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 10
+[21Kas2025 21:44:24.240] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 32, from 0
+[21Kas2025 21:44:24.327] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[21Kas2025 21:44:25.093] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[21Kas2025 21:44:25.154] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:28fbb6f6] logged in with entity id 94 at (-8.695263513566811, -60.0, 8.411422367139885)
+[21Kas2025 21:44:25.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev oyuna katıldı
+[21Kas2025 21:44:39.571] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[21Kas2025 21:44:40.829] [Render thread/WARN] [net.minecraft.client.renderer.texture.TextureManager/]: Failed to load texture: garakrrals_mobs:textures/entity/bear/bear.png
+java.io.FileNotFoundException: garakrrals_mobs:textures/entity/bear/bear.png
+	at net.minecraft.server.packs.resources.ResourceProvider.lambda$getResourceOrThrow$0(ResourceProvider.java:21) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.server.packs.resources.ResourceProvider.getResourceOrThrow(ResourceProvider.java:21) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture$TextureImage.load(SimpleTexture.java:83) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.getTextureImage(SimpleTexture.java:58) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.load(SimpleTexture.java:29) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:96) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.texture.TextureManager.register(TextureManager.java:66) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.texture.TextureManager.getTexture(TextureManager.java:119) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.RenderStateShard$TextureStateShard.lambda$new$0(RenderStateShard.java:243) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.RenderStateShard.setupRenderState(RenderStateShard.java:37) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.client.renderer.RenderType$CompositeRenderType.lambda$new$1(RenderType.java:490) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.RenderStateShard.setupRenderState(RenderStateShard.java:37) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.RenderType.end(RenderType.java:433) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.MultiBufferSource$BufferSource.endBatch(MultiBufferSource.java:97) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.MultiBufferSource$BufferSource.getBuffer(MultiBufferSource.java:46) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:124) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:45) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at mc.garakrral.gmobsreforged.entity.client.renderer.GeckoRenderer.render(GeckoRenderer.java:52) ~[main/:?]
+	at mc.garakrral.gmobsreforged.entity.client.renderer.GeckoRenderer.render(GeckoRenderer.java:20) ~[main/:?]
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:140) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:1440) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:1223) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:1126) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:909) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.4.10_mapped_official_1.20.1.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.10.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.4.10.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.10.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Kas2025 21:44:45.692] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[21Kas2025 21:44:45.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:overworld
+[21Kas2025 21:44:46.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_end
+[21Kas2025 21:44:46.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_nether
+[21Kas2025 21:44:46.577] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Bağlantı kesildi
+[21Kas2025 21:44:46.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev oyundan ayrıldı
+[21Kas2025 21:44:46.751] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[21Kas2025 21:44:46.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Kas2025 21:44:46.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Kas2025 21:44:46.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Kas2025 21:44:48.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:overworld
+[21Kas2025 21:44:49.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_end
+[21Kas2025 21:44:49.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_nether
+[21Kas2025 21:44:49.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Yeni Dünya): All chunks are saved
+[21Kas2025 21:44:49.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Kas2025 21:44:49.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Kas2025 21:44:49.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Kas2025 21:44:52.322] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[21Kas2025 21:44:52.391] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[21Kas2025 21:44:54.314] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[21Kas2025 21:44:54.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Kas2025 21:44:54.384] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\Yeni Dünya (1)\serverconfig\forge-server.toml is not correct. Correcting
+[21Kas2025 21:44:54.385] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[21Kas2025 21:44:54.385] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[21Kas2025 21:44:54.385] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[21Kas2025 21:44:54.386] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[21Kas2025 21:44:54.386] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[21Kas2025 21:44:54.386] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[21Kas2025 21:44:54.386] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[21Kas2025 21:44:54.386] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[21Kas2025 21:44:54.386] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[21Kas2025 21:44:58.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Kas2025 21:44:59.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:59.375] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:44:59.868] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %0
+[21Kas2025 21:45:00.371] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %1
+[21Kas2025 21:45:00.929] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %1
+[21Kas2025 21:45:01.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %3
+[21Kas2025 21:45:01.885] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %4
+[21Kas2025 21:45:02.387] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %5
+[21Kas2025 21:45:02.861] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %6
+[21Kas2025 21:45:03.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %9
+[21Kas2025 21:45:03.871] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %10
+[21Kas2025 21:45:04.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %13
+[21Kas2025 21:45:04.862] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %15
+[21Kas2025 21:45:05.375] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %17
+[21Kas2025 21:45:05.874] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %19
+[21Kas2025 21:45:06.391] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %22
+[21Kas2025 21:45:06.871] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %23
+[21Kas2025 21:45:07.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %26
+[21Kas2025 21:45:07.883] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %29
+[21Kas2025 21:45:08.365] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %31
+[21Kas2025 21:45:08.865] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %32
+[21Kas2025 21:45:09.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %35
+[21Kas2025 21:45:09.876] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %38
+[21Kas2025 21:45:10.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %41
+[21Kas2025 21:45:10.873] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %42
+[21Kas2025 21:45:11.372] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %44
+[21Kas2025 21:45:11.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %47
+[21Kas2025 21:45:12.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %50
+[21Kas2025 21:45:12.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %54
+[21Kas2025 21:45:13.373] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %55
+[21Kas2025 21:45:13.866] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %58
+[21Kas2025 21:45:14.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %60
+[21Kas2025 21:45:14.864] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %64
+[21Kas2025 21:45:15.362] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %68
+[21Kas2025 21:45:15.872] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %69
+[21Kas2025 21:45:16.368] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %71
+[21Kas2025 21:45:16.874] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %73
+[21Kas2025 21:45:17.364] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %76
+[21Kas2025 21:45:17.861] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %80
+[21Kas2025 21:45:18.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %83
+[21Kas2025 21:45:18.877] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %84
+[21Kas2025 21:45:19.373] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %86
+[21Kas2025 21:45:19.876] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %88
+[21Kas2025 21:45:20.361] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %91
+[21Kas2025 21:45:20.862] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %95
+[21Kas2025 21:45:21.365] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Başlangıç alanı hazırlanıyor: %98
+[21Kas2025 21:45:21.585] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Kas2025 21:45:21.585] [Server thread/INFO] [mc.garakrral.gmobsreforged.Main/]: HELLO from server starting
+[21Kas2025 21:45:21.594] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 10
+[21Kas2025 21:45:21.595] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 22735 ms
+[21Kas2025 21:45:21.596] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 32, from 0
+[21Kas2025 21:45:21.870] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[21Kas2025 21:45:21.873] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ce68a792] logged in with entity id 412 at (-8.5, 95.0, 9.5)
+[21Kas2025 21:45:21.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev oyuna katıldı
+[21Kas2025 21:45:22.215] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[21Kas2025 21:45:58.321] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 106 ms
+[21Kas2025 21:45:58.348] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] En yakın minecraft:village_plains tam olarak [-176, ~, 400] konumunda (455 blok mesafede)
+[21Kas2025 21:46:02.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Dev; -175.500000, 147.727910, 400.500000 konumuna ışınlandı]
+[21Kas2025 21:46:02.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev; -175.500000, 147.727910, 400.500000 konumuna ışınlandı
+[21Kas2025 21:46:13.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Oyun modunuz Seyirci Modu olarak ayarlandı]
+[21Kas2025 21:46:13.768] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Oyun modunuz Seyirci Modu olarak ayarlandı
+[21Kas2025 21:46:14.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Oyun modunuz Yaratıcı Mod olarak ayarlandı]
+[21Kas2025 21:46:14.311] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Oyun modunuz Yaratıcı Mod olarak ayarlandı
+[21Kas2025 21:46:15.546] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Hata Ayıklama]: Vurma kutuları: görünür
+[21Kas2025 21:46:32.421] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Bilinmeyen veya eksik komut. Hata için aşağıya bakın
+[21Kas2025 21:46:32.422] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ..._mobs:fly]<--[BURASI]
+[21Kas2025 21:46:34.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 15 varlık Dev hedefine ışınlandı]
+[21Kas2025 21:46:34.920] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 15 varlık Dev hedefine ışınlandı
+[21Kas2025 21:46:50.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Oyun modunuz Seyirci Modu olarak ayarlandı]
+[21Kas2025 21:46:50.222] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Oyun modunuz Seyirci Modu olarak ayarlandı
+[21Kas2025 21:46:50.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Oyun modunuz Yaratıcı Mod olarak ayarlandı]
+[21Kas2025 21:46:50.733] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Oyun modunuz Yaratıcı Mod olarak ayarlandı
+[21Kas2025 21:46:50.972] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Hata Ayıklama]: Vurma kutuları: gizli
+[21Kas2025 21:46:51.293] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[21Kas2025 21:46:51.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:overworld
+[21Kas2025 21:46:51.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_end
+[21Kas2025 21:46:51.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_nether
+[21Kas2025 21:46:52.876] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[21Kas2025 21:46:52.913] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Bağlantı kesildi
+[21Kas2025 21:46:52.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev oyundan ayrıldı
+[21Kas2025 21:46:52.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[21Kas2025 21:46:52.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Kas2025 21:46:52.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Kas2025 21:46:52.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Kas2025 21:46:54.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:overworld
+[21Kas2025 21:46:56.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_end
+[21Kas2025 21:46:56.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Yeni Dünya]'/minecraft:the_nether
+[21Kas2025 21:46:56.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Yeni Dünya (1)): All chunks are saved
+[21Kas2025 21:46:56.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Kas2025 21:46:56.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Kas2025 21:46:56.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
