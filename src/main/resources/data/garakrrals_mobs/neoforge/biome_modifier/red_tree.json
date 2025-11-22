@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:forest",
+  "features": "garakrrals_mobs:red_tree_placed",
+  "step": "vegetal_decoration"
+}

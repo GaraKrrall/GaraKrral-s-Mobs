@@ -9,6 +9,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.biome.MobSpawnSettings;
+import net.minecraft.world.level.levelgen.GenerationStep;
 
 import mc.garakrral.gmobs.Main;
 import mc.garakrral.gmobs.entity.ModEntities;
@@ -21,14 +22,14 @@ public class ModBiomeModifiers {
 
     public static final ResourceKey<BiomeModifier> GECKO_SPAWN = registerKey("gecko");
     public static final ResourceKey<BiomeModifier> FLY_SPAWN = registerKey("fly_spawn");
-
+    public static final ResourceKey<BiomeModifier> RED_TREE_SPAWN = registerKey("red_tree");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> c) {
         var placedFeatures = c.lookup(Registries.PLACED_FEATURE);
         var biomes = c.lookup(Registries.BIOME);
 
         c.register(GECKO_SPAWN, new BiomeModifiers.AddSpawnsBiomeModifier(
-           HolderSet.direct(biomes.getOrThrow(Biomes.SWAMP), biomes.getOrThrow(Biomes.PLAINS)),
+                HolderSet.direct(biomes.getOrThrow(Biomes.SWAMP), biomes.getOrThrow(Biomes.PLAINS)),
                 List.of(new MobSpawnSettings.SpawnerData(ModEntities.GECKO.get(), 20, 2, 4))
         ));
         c.register(FLY_SPAWN, new BiomeModifiers.AddSpawnsBiomeModifier(
@@ -48,10 +49,16 @@ public class ModBiomeModifiers {
                         )
                 )
         ));
-    
+
+        c.register(RED_TREE_SPAWN, new BiomeModifiers.AddFeaturesBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(Biomes.FOREST)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BLOODWOOD_PLACED_KEY)),
+                GenerationStep.Decoration.VEGETAL_DECORATION));
+
     }
 
     private static ResourceKey<BiomeModifier> registerKey(String name) {
         return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(Main.MODID, name));
     }
+
 }

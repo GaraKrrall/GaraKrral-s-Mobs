@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "garakrrals_mobs:block/stripped_red_wood_log_top",
+    "side": "garakrrals_mobs:block/stripped_red_wood_log"
+  }
+}
